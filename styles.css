@@ -21,14 +21,14 @@ body {
 
 /* Glassmorphic Cards */
 .glass-card {
-    background: rgba(18, 22, 41, 0.65);
+    background: rgba(10, 10, 20, 0.75);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .glass-card:hover {
-    border-color: rgba(255, 42, 133, 0.4);
-    box-shadow: 0 8px 32px 0 rgba(255, 42, 133, 0.15);
+    border-color: rgba(255, 0, 60, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(255, 42, 133, 0.25);
 }
 
 /* Custom Scrollbar */
@@ -36,14 +36,14 @@ body {
     width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #070913;
+    background: #05050a;
 }
 ::-webkit-scrollbar-thumb {
-    background: #1a2038;
+    background: #1a1a2e;
     border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #ff2a85;
+    background: #ff003c;
 }
 
 /* Typing Effect Caret */
@@ -58,7 +58,7 @@ body {
 /* Floating Animation */
 @keyframes float {
     0%, 100% { transform: translateY(0px) rotate(0deg); }
-    50% { transform: translateY(-12px) rotate(1deg); }
+    50% { transform: translateY(-10px) rotate(0.5deg); }
 }
 .animate-float {
     animation: float 6s ease-in-out infinite;
@@ -69,8 +69,8 @@ body {
 
 /* Pulse Subtle Glow */
 @keyframes pulseGlow {
-    0%, 100% { filter: drop-shadow(0 0 15px rgba(255, 42, 133, 0.5)); }
-    50% { filter: drop-shadow(0 0 30px rgba(255, 42, 133, 0.8)); }
+    0%, 100% { filter: drop-shadow(0 0 15px rgba(255, 0, 60, 0.5)); }
+    50% { filter: drop-shadow(0 0 30px rgba(0, 240, 255, 0.8)); }
 }
 .pulse-glow {
     animation: pulseGlow 4s ease-in-out infinite;
